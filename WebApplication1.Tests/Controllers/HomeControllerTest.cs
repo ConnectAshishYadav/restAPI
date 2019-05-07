@@ -9,6 +9,7 @@ namespace WebApplication1.Tests.Controllers
     public class HomeControllerTest
     {
         [TestMethod]
+        [Priority(0)]
         public void Index()
         {
             // Arrange
